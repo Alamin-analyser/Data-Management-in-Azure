@@ -94,17 +94,17 @@ Given the variety of data types, a relational data model or data warehouse appro
 
 1.	**Entities:**
    
-o	Customers: Entity with fields like Customer ID, Name, Address, etc.
+*	Customers: Entity with fields like Customer ID, Name, Address, etc.
 
-o	Transactions: Entity with fields such as Transaction ID, Customer ID, Product ID, Amount.
+*	Transactions: Entity with fields such as Transaction ID, Customer ID, Product ID, Amount.
 
-o	Products: Entity with fields such as Product ID, Product Name, Category, Stock Level.
+*	Products: Entity with fields such as Product ID, Product Name, Category, Stock Level.
 
 2.	**Relationships:**
    
-o	A one-to-many relationship exists between Customers and Transactions.
+*	A one-to-many relationship exists between Customers and Transactions.
 
-o	A many-to-one relationship exists between Transactions and Products.
+*	A many-to-one relationship exists between Transactions and Products.
 
 3.	**Primary Keys:** Each entity will have a unique primary key (e.g., Customer ID, Transaction ID, Product ID) to ensure data integrity.
 
