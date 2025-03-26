@@ -5,10 +5,13 @@
 ### 1. Data Laws and Regulations:
 
 When handling customer data, especially sensitive information such as personal identification or payment details, it is crucial for "Paws & Whiskers" to adhere to legal and regulatory frameworks. The company must ensure that it collects, processes, and stores data in compliance with applicable laws, including:
+
 **a) GDPR Compliance (General Data Protection Regulation)**
 
 The General Data Protection Regulation (GDPR) is a comprehensive data protection law that applies to any company that processes the personal data of EU citizens, regardless of the company’s location. Since "Paws & Whiskers" will likely deal with customer information (names, addresses, payment details), GDPR compliance is critical.
+
 Key aspects of GDPR relevant to the company include:
+
 •	**Data Minimisation:** Only collect necessary data.
 
 •	**Transparency:** Clearly inform customers on how their data will be used.
@@ -20,6 +23,7 @@ Key aspects of GDPR relevant to the company include:
 •	**Data Security:** Data must be encrypted and securely stored.
 
 Azure’s Azure Security Centre and Azure Key Vault can help ensure compliance by providing tools for data encryption, secure access controls, and audit logs.
+
 **b) Data Protection Act (DPA) 2018**
 
 The Data Protection Act 2018 governs the collection, storage, and handling of personal data within the UK. The DPA works in alignment with the GDPR but includes additional provisions specific to the UK. For example, the DPA establishes rules for the processing of criminal conviction data and provides specific rights for individuals to access their data.
@@ -49,10 +53,10 @@ To meet "Paws & Whiskers" needs, the following Microsoft Azure services can be r
 **a) Data Storage Options**
 
 1.	**Azure Blob Storage:** Ideal for storing large amounts of unstructured data, such as inventory lists, customer data, and sales records.
-2.	
+   
 Benefits: Highly scalable and cost-effective, with built-in redundancy across regions. It also supports advanced security features such as encryption at rest and secure access through Azure Active Directory.
 
-3.	**Azure SQL Database:** Suitable for storing structured data like customer information, transactions, and pet product inventory.
+2.	**Azure SQL Database:** Suitable for storing structured data like customer information, transactions, and pet product inventory.
    
 Benefits: Provides powerful querying capabilities, transactional consistency, and seamless integration with Azure services for analytics. It also includes automatic backups and high availability.
 
@@ -62,7 +66,7 @@ Benefits: Provides powerful querying capabilities, transactional consistency, an
    
 Benefits: It supports various algorithms and frameworks to train models and integrates easily with Azure services to automate analysis and deployment.
 
-3.	**Azure Synapse Analytics:** For analysing large volumes of sales data and trends across time periods, helping management identify high-demand products and forecast future sales.
+2.	**Azure Synapse Analytics:** For analysing large volumes of sales data and trends across time periods, helping management identify high-demand products and forecast future sales.
    
 Benefits: It offers integrated big data and data warehousing capabilities, and can handle both structured and unstructured data, providing a unified analytics platform.
 
